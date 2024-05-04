@@ -118,23 +118,23 @@ export default function Home() {
 
           <div className="flex flex-col space-y-4 w-full px-8">
             <div className="flex flex-row space-x-4">
-              <div className="flex flex-col items-center justify-center p-2 bg-green-500 rounded-lg text-white">
-                <h1 className="text-center">Toplam Doğru</h1>
+              <div className="flex flex-col items-center justify-center p-2 bg-green-200 rounded-lg text-green-900">
+                <h1 className="text-center text-xs sm:text-base">Toplam Doğru</h1>
                 <h2 className="text-center font-bold">100</h2>
               </div>
 
-              <div className="flex flex-col items-center justify-center p-2 bg-red-500 rounded-lg text-white">
-                <h1 className="text-center">Toplam Yanlış</h1>
+              <div className="flex flex-col items-center justify-center p-2 bg-red-200 rounded-lg text-red-900">
+                <h1 className="text-center text-xs sm:text-base">Toplam Yanlış</h1>
                 <h2 className="text-center font-bold">100</h2>
               </div>
 
-              <div className="flex flex-col items-center justify-center p-2 bg-zinc-400 rounded-lg text-white">
-                <h1 className="text-center">Toplam Boş</h1>
+              <div className="flex flex-col items-center justify-center p-2 bg-zinc-200 rounded-lg text-zinc-900">
+                <h1 className="text-center text-xs sm:text-base">Toplam Boş</h1>
                 <h2 className="text-center font-bold">100</h2>
               </div>
 
-              <div className="flex flex-col items-center justify-center p-2 bg-blue-500 rounded-lg text-white">
-                <h1 className="text-center">Toplam Net</h1>
+              <div className="flex flex-col items-center justify-center p-2 bg-blue-200 rounded-lg text-blue-900">
+                <h1 className="text-center text-xs sm:text-base">Toplam Net</h1>
                 <h2 className="text-center font-bold">100</h2>
               </div>
             </div>
